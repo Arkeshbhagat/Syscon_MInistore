@@ -2,7 +2,9 @@ import './App.css';
 import "./components/IconAndContent";
 import { IconAndContent } from './components/IconAndContent';
 import { MobileProduct } from './components/MobileProduct';
-
+import Subscribe from './components/Subscribe';
+import { Subscribe } from './components/Subscribe';
+import { Shop } from './components/Shop';
 
 // import {IconAndContent} from "";
 function App() {
@@ -29,6 +31,8 @@ function App() {
       </div> */}
       <div><IconAndContent /></div>
       <div><MobileProduct /></div>
+      <div><Subscribe /></div>
+      <div><Shop /></div>
     </>
   );
 }
